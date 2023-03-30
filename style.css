@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #3D087B;
+    width: 100%;
+    height: 747px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.myitem{
+    display: flex;
+    width: 95%;
+    height: 50px;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center; 
+}
+
+.time{
+    background-color: white;
+    width: 550px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.line{
+    border-left:2px solid grey;
+    height: 30px;
+    margin-left: 25px;
+    margin-bottom: 8px;
+}
+.t1{
+    color: #3D087B;
+    font-size: 20px;
+}
+select{
+    width: 58%;
+    height: 40px;
+    opacity: 0.7;
+    border-radius: 3px solid rgb(248, 244, 244);
+    color: #3D087BDE;
+    font-style: bold;
+    font-size: 16px;
+}
+#mrng{
+    background-color: rgba(200, 200, 211, 0.255);
+    width: 550px;
+    border-radius: 10px;
+    height: 70px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    color: white;
+}
+#al1{
+    background-image: linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%);
+    width: 290px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 5px;
+}
+.al2{
+    background-color: rgba(200, 200, 211, 0.255);
+    width: 250px;
+    height: 110px;
+    display: flex;
+    padding-left: 18px;
+    align-items: center;
+    line-height: 25px;
+    margin-top: 2px;
+    margin-left: 10px;
+    color: #CB52F8;
+    border-radius: 5px;
+}
+.alm-family{
+    display: flex;
+    margin: 10px;
+    height: 100px;
+}
+.timebx{
+    background-color: white;
+    width: 535px;
+    height: 120px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.tm1{
+    background-color: #dcb9e9;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4f0769;
+    font-size: 35px;
+}
+.tm2{
+    background-color: #dcb9e9;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #4f0769;
+    font-size: 35px;
+
+}
+.tm3{
+    background-color: #dcb9e9;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4f0769;
+    font-size: 35px;
+}
+.b{
+    width: 450px;
+    height: 20px;
+    background-color: white;
+    opacity: 0.8;
+    margin-left: 60px;
+    margin-top: -8px;
+    border-radius: 8px;
+}
+.colon{
+    font-size: 40px;
+}
+.c{
+    width: 350px;
+    height: 23px;
+    background-color: white;
+    opacity: 0.2;
+    margin-left: 110px;
+    margin-top: -13px;
+    border-radius: 8px;
+}
+.tm11{
+    background-image:url(./AM_svg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2px;
+    margin-left: 10px;
+    color: white;
+    font-size: 40px;
+
+}
+.tm{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 15px;
+    color: #3D087B;
+    font-size: bold;
+    font-weight: 600;
+}
+.text1{
+    background-color: white;
+    width: 535px;
+    margin:15px;
+    border-radius: 5px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.breakfst{
+    color: #8E53F0;
+    display: flex;
+    font-style: bold;
+    font-size: 18px;
+    flex-flow: wrap;
+    margin-left: 15px;
+    font-weight: 600;
+    padding-left: 15px;
+    align-items: center;
+    animation-name: fast;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes fast {
+    from {
+        transform: scaleX(-0.1);
+    }
+    to {
+        transform: skewX(2);
+    }
+    
+}
+
+.component{
+    width: 200px;
+    height: 400px;
+}
+#pic{
+    background-image: url(./Component\ 30\ –\ 1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 535px;
+    height: 350px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
